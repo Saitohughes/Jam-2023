@@ -15,8 +15,17 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField]
     float speed;
+    public static PlayerController instance;
     void Awake()
     {
+        if (instance == null)
+        {
+            instance = this;
+        }
+        else
+        {
+            Destroy(this.gameObject);
+        }
  
         playerInput=GetComponent<PlayerInput>();
         myControl=GetComponent<CharacterController>();
@@ -39,6 +48,18 @@ public class PlayerController : MonoBehaviour
         Vector3 finalMov = new Vector3(movInput.x,0f, movInput.y) * speed;
         //myControl.Move(finalMov);
         return finalMov;
+    }
+    public void Teleport(Transform newPosition)
+    {
+        Debug.Log("Estoy Haciendo El metodo desde el player");
+        myControl.enabled = false;
+        gameObject.transform.position = newPosition.position;
+
+        Invoke("ReActiveControl", 0.5f);
+    }
+    public void ReActiveControl()
+    {
+        myControl.enabled = true;
     }
    /* public void Aiming()
     {
