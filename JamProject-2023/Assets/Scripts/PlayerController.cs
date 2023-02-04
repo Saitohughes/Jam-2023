@@ -61,10 +61,5 @@ public class PlayerController : MonoBehaviour
     {
         myControl.enabled = true;
     }
-   /* public void Aiming()
-    {
-        float rotation = playerInput.actions["Aim"].ReadValue<Axis>().to * 1f;
-        gameObject.transform.Rotate(new Vector3(0f, rotation, 0));
-    }
-   */
+
 }

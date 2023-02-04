@@ -8,20 +8,20 @@ public class MapsManager : MonoBehaviour
 {
     // Start is called before the first frame update
     [SerializeField]
-    List<Maps> levelBuilding;
-    //private void Awake()
-    //{
-    //    levelBuilding = GetComponentsInChildren<Maps>();
-    //}
+    Maps[] levelBuilding;
+    private void Awake()
+    {
+        levelBuilding = GetComponentsInChildren<Maps>();
+    }
     void Start()
     {
-        for (int i = 0; i < levelBuilding.Count; i++)
+        for (int i = 0; i < levelBuilding.Length; i++)
         {
 
             if (i == 0)
             {
                 levelBuilding[i].LastLevel = null;
-                if (i != levelBuilding.Count - 1)
+                if (i != levelBuilding.Length - 1)
                     levelBuilding[i].NextLevel = levelBuilding[i + 1];
                 levelBuilding[i].StartLevel();
 
@@ -30,7 +30,7 @@ public class MapsManager : MonoBehaviour
             else
             {
                
-                if (i != levelBuilding.Count - 1)
+                if (i != levelBuilding.Length - 1)
                 {
                     levelBuilding[i].NextLevel = levelBuilding[i + 1];
                     levelBuilding[i].LastLevel = levelBuilding[i - 1];

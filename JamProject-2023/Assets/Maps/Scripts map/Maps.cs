@@ -48,7 +48,7 @@ public class Maps : MonoBehaviour
 
     public void DisableLevel()
     {
-        gameObject.SetActive(false);
+      //gameObject.SetActive(false);
         myDoor.enabled=false;
         myCam.Priority=0;
 

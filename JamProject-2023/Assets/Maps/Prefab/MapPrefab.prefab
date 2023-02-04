@@ -23,14 +23,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1300912436879259117}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.04, y: 0.28, z: 6.73}
+  m_LocalRotation: {x: -0.0021090354, y: 0.007690052, z: 0.0035481127, w: 0.9999619}
+  m_LocalPosition: {x: -9.26, y: 0.43, z: 6.56}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8215109237643464619}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: -0.245, y: 0.88, z: 0.405}
 --- !u!1 &8215109235570765966
 GameObject:
   m_ObjectHideFlags: 0
@@ -105,8 +105,8 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8215109235570765967}
-  m_Father: {fileID: 8215109236152072412}
-  m_RootOrder: 3
+  m_Father: {fileID: 8215109237643464619}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &8215109235698834060
 MonoBehaviour:
@@ -124,7 +124,7 @@ MonoBehaviour:
   - m_Script
   m_LockStageInInspector: 
   m_StreamingVersion: 20170927
-  m_Priority: 10
+  m_Priority: 0
   m_StandbyUpdate: 2
   m_LookAt: {fileID: 0}
   m_Follow: {fileID: 0}
@@ -274,9 +274,8 @@ Transform:
   - {fileID: 8215109237266907558}
   - {fileID: 8215109236354850819}
   - {fileID: 8215109237232418524}
-  - {fileID: 8215109235698834061}
   m_Father: {fileID: 8215109237643464619}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8215109236354850818
 GameObject:
@@ -599,6 +598,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8215109235770950463}
+  - {fileID: 8215109235698834061}
   - {fileID: 8215109236152072412}
   - {fileID: 4336861288492582405}
   - {fileID: 6110645462831635446}
@@ -619,7 +619,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myCam: {fileID: 0}
   myDoor: {fileID: 0}
+  lastLevel: {fileID: 0}
+  nextLevel: {fileID: 0}
   startPosition: {fileID: 6110645462831635446}
+  nextPosition: {fileID: 0}
+  myPlayer: {fileID: 0}
 --- !u!1 &8258409488805850007
 GameObject:
   m_ObjectHideFlags: 0
@@ -653,7 +657,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8215109237643464619}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &1158661630192948571
 MeshFilter:
