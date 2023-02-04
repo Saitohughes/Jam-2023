@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering;
 
 public class Tentacle : MonoBehaviour
 {
@@ -14,6 +15,7 @@ public class Tentacle : MonoBehaviour
     public Transform targetDir;
     public float targetDist;
     public float smoothSpeed;
+    public float trailspeed;
     // Start is called before the first frame update
     void Start()
     {
@@ -30,7 +32,7 @@ public class Tentacle : MonoBehaviour
 
         for (int i = 1; i < SegmentPoses.Length; i++)
         {
-            SegmentPoses[i] = Vector3.SmoothDamp(SegmentPoses[i], SegmentPoses[i - 1] + targetDir.right * targetDist, ref SegmentsV[i], smoothSpeed);
+            SegmentPoses[i] = Vector3.SmoothDamp(SegmentPoses[i], SegmentPoses[i - 1] + targetDir.right * targetDist, ref SegmentsV[i], smoothSpeed + i / trailspeed);
         }
         myTail.SetPositions(SegmentPoses);
     }
