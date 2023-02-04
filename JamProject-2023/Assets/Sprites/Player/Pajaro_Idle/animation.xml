@@ -1,0 +1,368 @@
+<animations>
+ <animation name="Pajaro_idle_Top">
+  <attrlinks>
+   <attrlink attr="rotation.anglez" node="Pajaro_Pajaro_Izquierda_Batamanta" timedvalue="ATV-0B91415EB9432108"/>
+   <attrlink attr="offset.x" node="Pajaro_Pajaro_Izquierda_Batamanta" timedvalue="ATV-0B91415EB9432105"/>
+   <attrlink attr="offset.y" node="Pajaro_Pajaro_Izquierda_Batamanta" timedvalue="ATV-0B91415EB9432106"/>
+   <attrlink attr="offset.z" node="Pajaro_Pajaro_Izquierda_Batamanta" timedvalue="ATV-0B91415EB9432107"/>
+   <attrlink attr="skew" node="Pajaro_Pajaro_Izquierda_Batamanta" timedvalue="ATV-0B91415EB943210B"/>
+   <attrlink attr="pivot" node="Pajaro_Pajaro_Izquierda_Batamanta" timedvalue="PIVOT-TV-Pajaro_Pajaro_Izquierda_Batamanta"/>
+   <attrlink attr="opacity" node="Pajaro_Pajaro_Izquierda_Batamanta" value="1"/>
+   <attrlink attr="rotation.anglez" node="Pajaro_Pajaro_Izquierda_Cabeza" timedvalue="ATV-0B91415EB9439AFF"/>
+   <attrlink attr="offset.x" node="Pajaro_Pajaro_Izquierda_Cabeza" timedvalue="ATV-0B91415EB9439AFD"/>
+   <attrlink attr="offset.y" node="Pajaro_Pajaro_Izquierda_Cabeza" timedvalue="ATV-0B91415EB9439AFE"/>
+   <attrlink attr="offset.z" node="Pajaro_Pajaro_Izquierda_Cabeza" timedvalue="ATV-0B91415EB9437287"/>
+   <attrlink attr="skew" node="Pajaro_Pajaro_Izquierda_Cabeza" timedvalue="ATV-0B91415EB9439B02"/>
+   <attrlink attr="pivot" node="Pajaro_Pajaro_Izquierda_Cabeza" timedvalue="PIVOT-TV-Pajaro_Pajaro_Izquierda_Cabeza"/>
+   <attrlink attr="opacity" node="Pajaro_Pajaro_Izquierda_Cabeza" value="1"/>
+   <attrlink attr="rotation.anglez" node="Pajaro_Pajaro_Izquierda_Cabello" timedvalue="ATV-0B91415EB9439B06"/>
+   <attrlink attr="offset.x" node="Pajaro_Pajaro_Izquierda_Cabello" timedvalue="ATV-0B91415EB9439B03"/>
+   <attrlink attr="offset.y" node="Pajaro_Pajaro_Izquierda_Cabello" timedvalue="ATV-0B91415EB9439B04"/>
+   <attrlink attr="offset.z" node="Pajaro_Pajaro_Izquierda_Cabello" timedvalue="ATV-0B91415EB9439B05"/>
+   <attrlink attr="skew" node="Pajaro_Pajaro_Izquierda_Cabello" timedvalue="ATV-0B91415EB9439B09"/>
+   <attrlink attr="pivot" node="Pajaro_Pajaro_Izquierda_Cabello" timedvalue="PIVOT-TV-Pajaro_Pajaro_Izquierda_Cabello"/>
+   <attrlink attr="opacity" node="Pajaro_Pajaro_Izquierda_Cabello" value="1"/>
+   <attrlink attr="rotation.anglez" node="Pajaro_Pajaro_Izquierda_Nariz" timedvalue="ATV-0B91415EB9439B0C"/>
+   <attrlink attr="offset.x" node="Pajaro_Pajaro_Izquierda_Nariz" timedvalue="ATV-0B91415EB9439B0A"/>
+   <attrlink attr="offset.y" node="Pajaro_Pajaro_Izquierda_Nariz" timedvalue="ATV-0B91415EB9439B0B"/>
+   <attrlink attr="offset.z" node="Pajaro_Pajaro_Izquierda_Nariz" timedvalue="ATV-0B91415EB942CEA7"/>
+   <attrlink attr="skew" node="Pajaro_Pajaro_Izquierda_Nariz" timedvalue="ATV-0B91415EB9439B0F"/>
+   <attrlink attr="pivot" node="Pajaro_Pajaro_Izquierda_Nariz" timedvalue="PIVOT-TV-Pajaro_Pajaro_Izquierda_Nariz"/>
+   <attrlink attr="opacity" node="Pajaro_Pajaro_Izquierda_Nariz" value="1"/>
+   <attrlink attr="rotation.anglez" node="Pajaro_Pajaro_Izquierda_OjoIzquierdo" timedvalue="ATV-0B91415EB9439B13"/>
+   <attrlink attr="offset.x" node="Pajaro_Pajaro_Izquierda_OjoIzquierdo" timedvalue="ATV-0B91415EB9439B10"/>
+   <attrlink attr="offset.y" node="Pajaro_Pajaro_Izquierda_OjoIzquierdo" timedvalue="ATV-0B91415EB9439B11"/>
+   <attrlink attr="offset.z" node="Pajaro_Pajaro_Izquierda_OjoIzquierdo" timedvalue="ATV-0B91415EB9439B12"/>
+   <attrlink attr="skew" node="Pajaro_Pajaro_Izquierda_OjoIzquierdo" timedvalue="ATV-0B91415EB9439B16"/>
+   <attrlink attr="pivot" node="Pajaro_Pajaro_Izquierda_OjoIzquierdo" timedvalue="PIVOT-TV-Pajaro_Pajaro_Izquierda_OjoIzquierdo"/>
+   <attrlink attr="opacity" node="Pajaro_Pajaro_Izquierda_OjoIzquierdo" value="1"/>
+   <attrlink attr="rotation.anglez" node="Pajaro_Pajaro_Izquierda_OjoDerecha" timedvalue="ATV-0B91415EB9439B1A"/>
+   <attrlink attr="offset.x" node="Pajaro_Pajaro_Izquierda_OjoDerecha" timedvalue="ATV-0B91415EB9439B17"/>
+   <attrlink attr="offset.y" node="Pajaro_Pajaro_Izquierda_OjoDerecha" timedvalue="ATV-0B91415EB9439B18"/>
+   <attrlink attr="offset.z" node="Pajaro_Pajaro_Izquierda_OjoDerecha" timedvalue="ATV-0B91415EB9439B19"/>
+   <attrlink attr="skew" node="Pajaro_Pajaro_Izquierda_OjoDerecha" timedvalue="ATV-0B91415EB9439B1D"/>
+   <attrlink attr="pivot" node="Pajaro_Pajaro_Izquierda_OjoDerecha" timedvalue="PIVOT-TV-Pajaro_Pajaro_Izquierda_OjoDerecha"/>
+   <attrlink attr="opacity" node="Pajaro_Pajaro_Izquierda_OjoDerecha" value="1"/>
+   <attrlink attr="rotation.anglez" node="Pajaro_Pajaro_Izquierda_Pata1" timedvalue="ATV-0B91415EB9439B21"/>
+   <attrlink attr="offset.x" node="Pajaro_Pajaro_Izquierda_Pata1" timedvalue="ATV-0B91415EB9439B1E"/>
+   <attrlink attr="offset.y" node="Pajaro_Pajaro_Izquierda_Pata1" timedvalue="ATV-0B91415EB9439B1F"/>
+   <attrlink attr="offset.z" node="Pajaro_Pajaro_Izquierda_Pata1" timedvalue="ATV-0B91415EB9439B20"/>
+   <attrlink attr="skew" node="Pajaro_Pajaro_Izquierda_Pata1" timedvalue="ATV-0B91415EB9439B24"/>
+   <attrlink attr="pivot" node="Pajaro_Pajaro_Izquierda_Pata1" timedvalue="PIVOT-TV-Pajaro_Pajaro_Izquierda_Pata1"/>
+   <attrlink attr="opacity" node="Pajaro_Pajaro_Izquierda_Pata1" value="1"/>
+   <attrlink attr="rotation.anglez" node="Pajaro_Pajaro_Izquierda_Pata2" timedvalue="ATV-0B91415EB9439B28"/>
+   <attrlink attr="offset.x" node="Pajaro_Pajaro_Izquierda_Pata2" timedvalue="ATV-0B91415EB9439B25"/>
+   <attrlink attr="offset.y" node="Pajaro_Pajaro_Izquierda_Pata2" timedvalue="ATV-0B91415EB9439B26"/>
+   <attrlink attr="offset.z" node="Pajaro_Pajaro_Izquierda_Pata2" timedvalue="ATV-0B91415EB9439B27"/>
+   <attrlink attr="skew" node="Pajaro_Pajaro_Izquierda_Pata2" timedvalue="ATV-0B91415EB9439B2B"/>
+   <attrlink attr="pivot" node="Pajaro_Pajaro_Izquierda_Pata2" timedvalue="PIVOT-TV-Pajaro_Pajaro_Izquierda_Pata2"/>
+   <attrlink attr="opacity" node="Pajaro_Pajaro_Izquierda_Pata2" value="1"/>
+  </attrlinks>
+  <timedvalues>
+   <bezier name="ATV-0B91415EB9432108">
+    <pt x="1" y="0" rx="1" ry="0.01574090279889226" lx="1" ly="0" constSeg="false"/>
+    <pt x="10" y="0.02217266953392351" rx="10" ry="0.002877369328829771" lx="10" ly="0.02200341251458058" constSeg="false"/>
+    <pt x="19" y="0" rx="19" ry="-0.01646672090285076" lx="19" ly="0" constSeg="false"/>
+    <pt x="28" y="-0.05263988980217661" rx="29.82716049382716" ry="-0.05263988980217661" lx="28" ly="-0.05263988980217661" constSeg="false"/>
+    <pt x="37" y="0" rx="37" ry="0" lx="34.1358024691358" ly="0.0001850193359870841" constSeg="false"/>
+   </bezier>
+   <bezier name="ATV-0B91415EB9432105">
+    <pt x="1" y="14.24747599170689" rx="1" ry="14.24747599170689" lx="1" ly="14.24747599170689" constSeg="false"/>
+    <pt x="10" y="14.24747599170689" rx="10" ry="14.24747599170689" lx="10" ly="14.24747599170689" constSeg="false"/>
+    <pt x="19" y="14.24747599170689" rx="19" ry="14.24747599170689" lx="19" ly="14.24747599170689" constSeg="false"/>
+    <pt x="28" y="14.24747599170689" rx="29.0833747352252" ry="14.24747599170689" lx="25.18456684467969" ly="14.24747599170689" constSeg="false"/>
+    <pt x="37" y="14.24747599170689" rx="37" ry="14.24747599170689" lx="35.40823178334782" ly="14.24747599170689" constSeg="false"/>
+   </bezier>
+   <bezier name="ATV-0B91415EB9432106">
+    <pt x="1" y="-0.7971580314385272" rx="1" ry="-0.7971580314385272" lx="1" ly="-0.7971580314385272" constSeg="false"/>
+    <pt x="10" y="-0.7971580314385272" rx="10" ry="-0.7971580314385272" lx="10" ly="-0.7971580314385272" constSeg="false"/>
+    <pt x="19" y="-0.7971580314385272" rx="19" ry="-0.7971580314385272" lx="19" ly="-0.7971580314385272" constSeg="false"/>
+    <pt x="28" y="-0.7971580314385272" rx="29.0833747352252" ry="-0.7971580314385272" lx="25.18456684467969" ly="-0.7971580314385272" constSeg="false"/>
+    <pt x="37" y="-0.7971580314385272" rx="37" ry="-0.7971580314385272" lx="35.40823178334782" ly="-0.7971580314385272" constSeg="false"/>
+   </bezier>
+   <bezier name="ATV-0B91415EB9432107">
+    <pt x="1" y="0" rx="1" ry="0" lx="1" ly="0" constSeg="false"/>
+    <pt x="10" y="0" rx="10" ry="0" lx="10" ly="0" constSeg="false"/>
+    <pt x="19" y="0" rx="19" ry="0" lx="19" ly="0" constSeg="false"/>
+    <pt x="28" y="0" rx="29.0833747352252" ry="0" lx="25.18456684467969" ly="0" constSeg="false"/>
+    <pt x="37" y="0" rx="37" ry="0" lx="35.40823178334782" ly="0" constSeg="false"/>
+   </bezier>
+   <bezier name="ATV-0B91415EB943210B">
+    <pt x="1" y="0" rx="1" ry="0" lx="1" ly="0" constSeg="false"/>
+    <pt x="10" y="0" rx="10" ry="0" lx="10" ly="0" constSeg="false"/>
+    <pt x="19" y="0" rx="19" ry="0" lx="19" ly="0" constSeg="false"/>
+    <pt x="28" y="0" rx="29.0833747352252" ry="0" lx="25.18456684467969" ly="0" constSeg="false"/>
+    <pt x="37" y="0" rx="37" ry="0" lx="35.40823178334782" ly="0" constSeg="false"/>
+   </bezier>
+   <pivot name="PIVOT-TV-Pajaro_Pajaro_Izquierda_Batamanta">
+    <pt x="-14.53129221282235" y="0.4157825371584285" z="0" start="1"/>
+   </pivot>
+   <bezier name="ATV-0B91415EB9439AFF">
+    <pt x="1" y="0" rx="1" ry="0.06267381885289569" lx="1" ly="0" constSeg="false"/>
+    <pt x="10" y="0.088282476018595" rx="10" ry="0.02560865716569932" lx="10" ly="0.088282476018595" constSeg="false"/>
+    <pt x="19" y="0" rx="19" ry="-0.06165726075883368" lx="19" ly="0" constSeg="false"/>
+    <pt x="28" y="-0.08077101159407212" rx="28.05555555555555" ry="-0.02527947691112182" lx="28" ly="-0.08077101159407212" constSeg="false"/>
+    <pt x="37" y="0" rx="37" ry="0" lx="33.34567901234568" ly="0" constSeg="false"/>
+   </bezier>
+   <bezier name="ATV-0B91415EB9439AFD">
+    <pt x="1" y="0" rx="1" ry="0" lx="1" ly="0" constSeg="false"/>
+    <pt x="10" y="0" rx="10" ry="0" lx="10" ly="0" constSeg="false"/>
+    <pt x="19" y="0" rx="19" ry="0" lx="19" ly="0" constSeg="false"/>
+    <pt x="28" y="0" rx="28.05555555555555" ry="0" lx="28" ly="0" constSeg="false"/>
+    <pt x="37" y="0" rx="37" ry="0" lx="33.34567901234568" ly="0" constSeg="false"/>
+   </bezier>
+   <bezier name="ATV-0B91415EB9439AFE">
+    <pt x="1" y="0" rx="1" ry="0" lx="1" ly="0" constSeg="false"/>
+    <pt x="10" y="0" rx="10" ry="0" lx="10" ly="0" constSeg="false"/>
+    <pt x="19" y="0" rx="19" ry="0" lx="19" ly="0" constSeg="false"/>
+    <pt x="28" y="0" rx="28.05555555555555" ry="0" lx="28" ly="0" constSeg="false"/>
+    <pt x="37" y="0" rx="37" ry="0" lx="33.34567901234568" ly="0" constSeg="false"/>
+   </bezier>
+   <bezier name="ATV-0B91415EB9437287">
+    <pt x="1" y="0" rx="1" ry="0" lx="1" ly="0" constSeg="false"/>
+    <pt x="10" y="0" rx="10" ry="0" lx="10" ly="0" constSeg="false"/>
+    <pt x="19" y="0" rx="19" ry="0" lx="19" ly="0" constSeg="false"/>
+    <pt x="28" y="0" rx="28.05555555555555" ry="0" lx="28" ly="0" constSeg="false"/>
+    <pt x="37" y="0" rx="37" ry="0" lx="33.34567901234568" ly="0" constSeg="false"/>
+   </bezier>
+   <bezier name="ATV-0B91415EB9439B02">
+    <pt x="1" y="0" rx="1" ry="0" lx="1" ly="0" constSeg="false"/>
+    <pt x="10" y="0" rx="10" ry="0" lx="10" ly="0" constSeg="false"/>
+    <pt x="19" y="0" rx="19" ry="0" lx="19" ly="0" constSeg="false"/>
+    <pt x="28" y="0" rx="28.05555555555555" ry="0" lx="28" ly="0" constSeg="false"/>
+    <pt x="37" y="0" rx="37" ry="0" lx="33.34567901234568" ly="0" constSeg="false"/>
+   </bezier>
+   <pivot name="PIVOT-TV-Pajaro_Pajaro_Izquierda_Cabeza">
+    <pt x="-14.5974539059708" y="0.5525014671452107" z="0" start="1"/>
+   </pivot>
+   <bezier name="ATV-0B91415EB9439B06">
+    <pt x="1" y="0" rx="1" ry="-0.04392925016496321" lx="1" ly="0" constSeg="false"/>
+    <pt x="10" y="-0.06187883625387289" rx="10" ry="-0.0179495860889097" lx="10" ly="-0.06187883625387289" constSeg="false"/>
+    <pt x="19" y="0" rx="19" ry="-0.0669471617402858" lx="19" ly="0" constSeg="false"/>
+    <pt x="28" y="-0.0532764077630879" rx="28.05555555555555" ry="0.006976037803169315" lx="28" ly="-0.0532764077630879" constSeg="false"/>
+    <pt x="37" y="0" rx="37" ry="0" lx="33.34567901234568" ly="0" constSeg="false"/>
+   </bezier>
+   <bezier name="ATV-0B91415EB9439B03">
+    <pt x="1" y="0" rx="1" ry="0" lx="1" ly="0" constSeg="false"/>
+    <pt x="10" y="0" rx="10" ry="0" lx="10" ly="0" constSeg="false"/>
+    <pt x="19" y="0" rx="19" ry="0" lx="19" ly="0" constSeg="false"/>
+    <pt x="28" y="0" rx="28.05555555555555" ry="0" lx="28" ly="0" constSeg="false"/>
+    <pt x="37" y="0" rx="37" ry="0" lx="33.34567901234568" ly="0" constSeg="false"/>
+   </bezier>
+   <bezier name="ATV-0B91415EB9439B04">
+    <pt x="1" y="0" rx="1" ry="0" lx="1" ly="0" constSeg="false"/>
+    <pt x="10" y="0" rx="10" ry="0" lx="10" ly="0" constSeg="false"/>
+    <pt x="19" y="0" rx="19" ry="0" lx="19" ly="0" constSeg="false"/>
+    <pt x="28" y="0" rx="28.05555555555555" ry="0" lx="28" ly="0" constSeg="false"/>
+    <pt x="37" y="0" rx="37" ry="0" lx="33.34567901234568" ly="0" constSeg="false"/>
+   </bezier>
+   <bezier name="ATV-0B91415EB9439B05">
+    <pt x="1" y="4.444444444444445e-005" rx="1" ry="4.444444444444445e-005" lx="1" ly="4.444444444444445e-005" constSeg="false"/>
+    <pt x="10" y="4.444444444444445e-005" rx="10" ry="4.444444444444445e-005" lx="10" ly="4.444444444444445e-005" constSeg="false"/>
+    <pt x="19" y="4.444444444444445e-005" rx="19" ry="4.444444444444445e-005" lx="19" ly="4.444444444444445e-005" constSeg="false"/>
+    <pt x="28" y="4.444444444444445e-005" rx="28.05555555555555" ry="4.444444444444445e-005" lx="28" ly="4.444444444444445e-005" constSeg="false"/>
+    <pt x="37" y="4.444444444444445e-005" rx="37" ry="4.444444444444445e-005" lx="33.34567901234568" ly="4.444444444444445e-005" constSeg="false"/>
+   </bezier>
+   <bezier name="ATV-0B91415EB9439B09">
+    <pt x="1" y="0" rx="1" ry="0" lx="1" ly="0" constSeg="false"/>
+    <pt x="10" y="0" rx="10" ry="0" lx="10" ly="0" constSeg="false"/>
+    <pt x="19" y="0" rx="19" ry="0" lx="19" ly="0" constSeg="false"/>
+    <pt x="28" y="0" rx="28.05555555555555" ry="0" lx="28" ly="0" constSeg="false"/>
+    <pt x="37" y="0" rx="37" ry="0" lx="33.34567901234568" ly="0" constSeg="false"/>
+   </bezier>
+   <pivot name="PIVOT-TV-Pajaro_Pajaro_Izquierda_Cabello">
+    <pt x="-15.96493975336777" y="4.578903084534026" z="0" start="1"/>
+   </pivot>
+   <bezier name="ATV-0B91415EB9439B0C">
+    <pt x="1" y="0" rx="1" ry="-0.04664960558300205" lx="1" ly="0" constSeg="false"/>
+    <pt x="10" y="-0.09098211650075433" rx="10" ry="-0.04433251091775227" lx="10" ly="-0.09098211650075433" constSeg="false"/>
+    <pt x="19" y="0" rx="19" ry="0.08127872170800086" lx="19" ly="0" constSeg="false"/>
+    <pt x="28" y="0.1064751254374811" rx="28.05555555555555" ry="0.03332427590028036" lx="28" ly="0.1064751254374811" constSeg="false"/>
+    <pt x="37" y="0" rx="37" ry="0" lx="33.34567901234568" ly="0" constSeg="false"/>
+   </bezier>
+   <bezier name="ATV-0B91415EB9439B0A">
+    <pt x="1" y="0" rx="1" ry="0" lx="1" ly="0" constSeg="false"/>
+    <pt x="10" y="0" rx="10" ry="0" lx="10" ly="0" constSeg="false"/>
+    <pt x="19" y="0" rx="19" ry="0" lx="19" ly="0" constSeg="false"/>
+    <pt x="28" y="0" rx="28.05555555555555" ry="0" lx="28" ly="0" constSeg="false"/>
+    <pt x="37" y="0" rx="37" ry="0" lx="33.34567901234568" ly="0" constSeg="false"/>
+   </bezier>
+   <bezier name="ATV-0B91415EB9439B0B">
+    <pt x="1" y="0" rx="1" ry="0" lx="1" ly="0" constSeg="false"/>
+    <pt x="10" y="0" rx="10" ry="0" lx="10" ly="0" constSeg="false"/>
+    <pt x="19" y="0" rx="19" ry="0" lx="19" ly="0" constSeg="false"/>
+    <pt x="28" y="0" rx="28.05555555555555" ry="0" lx="28" ly="0" constSeg="false"/>
+    <pt x="37" y="0" rx="37" ry="0" lx="33.34567901234568" ly="0" constSeg="false"/>
+   </bezier>
+   <bezier name="ATV-0B91415EB942CEA7">
+    <pt x="1" y="2.222222222222222e-005" rx="1" ry="2.222222222222222e-005" lx="1" ly="2.222222222222222e-005" constSeg="false"/>
+    <pt x="10" y="2.222222222222222e-005" rx="10" ry="2.222222222222222e-005" lx="10" ly="2.222222222222222e-005" constSeg="false"/>
+    <pt x="19" y="2.222222222222222e-005" rx="19" ry="2.222222222222222e-005" lx="19" ly="2.222222222222222e-005" constSeg="false"/>
+    <pt x="28" y="2.222222222222222e-005" rx="28.05555555555555" ry="2.222222222222222e-005" lx="28" ly="2.222222222222222e-005" constSeg="false"/>
+    <pt x="37" y="2.222222222222222e-005" rx="37" ry="2.222222222222222e-005" lx="33.34567901234568" ly="2.222222222222222e-005" constSeg="false"/>
+   </bezier>
+   <bezier name="ATV-0B91415EB9439B0F">
+    <pt x="1" y="0" rx="1" ry="0" lx="1" ly="0" constSeg="false"/>
+    <pt x="10" y="0" rx="10" ry="0" lx="10" ly="0" constSeg="false"/>
+    <pt x="19" y="0" rx="19" ry="0" lx="19" ly="0" constSeg="false"/>
+    <pt x="28" y="0" rx="28.05555555555555" ry="0" lx="28" ly="0" constSeg="false"/>
+    <pt x="37" y="0" rx="37" ry="0" lx="33.34567901234568" ly="0" constSeg="false"/>
+   </bezier>
+   <pivot name="PIVOT-TV-Pajaro_Pajaro_Izquierda_Nariz">
+    <pt x="-16.38736195688149" y="3.945465063549774" z="0" start="1"/>
+   </pivot>
+   <bezier name="ATV-0B91415EB9439B13">
+    <pt x="1" y="0" rx="1" ry="0" lx="1" ly="0" constSeg="false"/>
+    <pt x="10" y="0" rx="10" ry="0" lx="10" ly="0" constSeg="false"/>
+    <pt x="19" y="0" rx="19" ry="0" lx="19" ly="0" constSeg="false"/>
+    <pt x="28" y="0" rx="28.05555555555555" ry="0" lx="28" ly="0" constSeg="false"/>
+    <pt x="37" y="0" rx="37" ry="0" lx="33.34567901234568" ly="0" constSeg="false"/>
+   </bezier>
+   <bezier name="ATV-0B91415EB9439B10">
+    <pt x="1" y="0" rx="1" ry="-0.07352496513650922" lx="1" ly="0" constSeg="false"/>
+    <pt x="10" y="-0.1035674240094915" rx="10" ry="-0.03004245887298226" lx="10" ly="-0.1035674240094915" constSeg="false"/>
+    <pt x="19" y="0" rx="19" ry="0.08962919598938873" lx="19" ly="0" constSeg="false"/>
+    <pt x="28" y="0.1174142467460992" rx="28.05555555555555" ry="0.03674797035564939" lx="28" ly="0.1174142467460992" constSeg="false"/>
+    <pt x="37" y="0" rx="37" ry="0" lx="33.34567901234568" ly="0" constSeg="false"/>
+   </bezier>
+   <bezier name="ATV-0B91415EB9439B11">
+    <pt x="1" y="0" rx="1" ry="0" lx="1" ly="0" constSeg="false"/>
+    <pt x="10" y="0" rx="10" ry="0" lx="10" ly="0" constSeg="false"/>
+    <pt x="19" y="0" rx="19" ry="0" lx="19" ly="0" constSeg="false"/>
+    <pt x="28" y="0" rx="28.05555555555555" ry="0" lx="28" ly="0" constSeg="false"/>
+    <pt x="37" y="0" rx="37" ry="0" lx="33.34567901234568" ly="0" constSeg="false"/>
+   </bezier>
+   <bezier name="ATV-0B91415EB9439B12">
+    <pt x="1" y="2.222222222222222e-005" rx="1" ry="2.222222222222222e-005" lx="1" ly="2.222222222222222e-005" constSeg="false"/>
+    <pt x="10" y="2.222222222222222e-005" rx="10" ry="2.222222222222222e-005" lx="10" ly="2.222222222222222e-005" constSeg="false"/>
+    <pt x="19" y="2.222222222222222e-005" rx="19" ry="2.222222222222222e-005" lx="19" ly="2.222222222222222e-005" constSeg="false"/>
+    <pt x="28" y="2.222222222222222e-005" rx="28.05555555555555" ry="2.222222222222222e-005" lx="28" ly="2.222222222222222e-005" constSeg="false"/>
+    <pt x="37" y="2.222222222222222e-005" rx="37" ry="2.222222222222222e-005" lx="33.34567901234568" ly="2.222222222222222e-005" constSeg="false"/>
+   </bezier>
+   <bezier name="ATV-0B91415EB9439B16">
+    <pt x="1" y="0" rx="1" ry="0" lx="1" ly="0" constSeg="false"/>
+    <pt x="10" y="0" rx="10" ry="0" lx="10" ly="0" constSeg="false"/>
+    <pt x="19" y="0" rx="19" ry="0" lx="19" ly="0" constSeg="false"/>
+    <pt x="28" y="0" rx="28.05555555555555" ry="0" lx="28" ly="0" constSeg="false"/>
+    <pt x="37" y="0" rx="37" ry="0" lx="33.34567901234568" ly="0" constSeg="false"/>
+   </bezier>
+   <pivot name="PIVOT-TV-Pajaro_Pajaro_Izquierda_OjoIzquierdo">
+    <pt x="-17.3463065663837" y="2.766484260046442" z="0" start="1"/>
+   </pivot>
+   <bezier name="ATV-0B91415EB9439B1A">
+    <pt x="1" y="0" rx="1" ry="0" lx="1" ly="0" constSeg="false"/>
+    <pt x="10" y="0" rx="10" ry="0" lx="10" ly="0" constSeg="false"/>
+    <pt x="19" y="0" rx="19" ry="0" lx="19" ly="0" constSeg="false"/>
+    <pt x="28" y="0" rx="28.05555555555555" ry="0" lx="28" ly="0" constSeg="false"/>
+    <pt x="37" y="0" rx="37" ry="0" lx="33.34567901234568" ly="0" constSeg="false"/>
+   </bezier>
+   <bezier name="ATV-0B91415EB9439B17">
+    <pt x="1" y="0" rx="1" ry="-0.05224179343945988" lx="1" ly="0" constSeg="false"/>
+    <pt x="10" y="-0.07358790258676606" rx="10" ry="-0.02134610914730619" lx="10" ly="-0.07358790258676606" constSeg="false"/>
+    <pt x="19" y="0" rx="19" ry="0.08741813744193655" lx="19" ly="0" constSeg="false"/>
+    <pt x="28" y="0.1145177600489369" rx="28.05555555555555" ry="0.035841436351194" lx="28" ly="0.1145177600489369" constSeg="false"/>
+    <pt x="37" y="0" rx="37" ry="0" lx="33.34567901234568" ly="0" constSeg="false"/>
+   </bezier>
+   <bezier name="ATV-0B91415EB9439B18">
+    <pt x="1" y="0" rx="1" ry="-0.01771234429474815" lx="1" ly="0" constSeg="false"/>
+    <pt x="10" y="-0.02494964626464524" rx="10" ry="-0.007237301969897095" lx="10" ly="-0.02494964626464524" constSeg="false"/>
+    <pt x="19" y="0" rx="19" ry="0" lx="19" ly="0" constSeg="false"/>
+    <pt x="28" y="0" rx="28.05555555555555" ry="0" lx="28" ly="0" constSeg="false"/>
+    <pt x="37" y="0" rx="37" ry="0" lx="33.34567901234568" ly="0" constSeg="false"/>
+   </bezier>
+   <bezier name="ATV-0B91415EB9439B19">
+    <pt x="1" y="2.222222222222222e-005" rx="1" ry="2.222222222222222e-005" lx="1" ly="2.222222222222222e-005" constSeg="false"/>
+    <pt x="10" y="2.222222222222222e-005" rx="10" ry="2.222222222222222e-005" lx="10" ly="2.222222222222222e-005" constSeg="false"/>
+    <pt x="19" y="2.222222222222222e-005" rx="19" ry="2.222222222222222e-005" lx="19" ly="2.222222222222222e-005" constSeg="false"/>
+    <pt x="28" y="2.222222222222222e-005" rx="28.05555555555555" ry="2.222222222222222e-005" lx="28" ly="2.222222222222222e-005" constSeg="false"/>
+    <pt x="37" y="2.222222222222222e-005" rx="37" ry="2.222222222222222e-005" lx="33.34567901234568" ly="2.222222222222222e-005" constSeg="false"/>
+   </bezier>
+   <bezier name="ATV-0B91415EB9439B1D">
+    <pt x="1" y="0" rx="1" ry="0" lx="1" ly="0" constSeg="false"/>
+    <pt x="10" y="0" rx="10" ry="0" lx="10" ly="0" constSeg="false"/>
+    <pt x="19" y="0" rx="19" ry="0" lx="19" ly="0" constSeg="false"/>
+    <pt x="28" y="0" rx="28.05555555555555" ry="0" lx="28" ly="0" constSeg="false"/>
+    <pt x="37" y="0" rx="37" ry="0" lx="33.34567901234568" ly="0" constSeg="false"/>
+   </bezier>
+   <pivot name="PIVOT-TV-Pajaro_Pajaro_Izquierda_OjoDerecha">
+    <pt x="-15.37905318254314" y="2.883312783491992" z="0" start="1"/>
+   </pivot>
+   <bezier name="ATV-0B91415EB9439B21">
+    <pt x="1" y="0" rx="1" ry="-0.03132040210111015" lx="1" ly="0" constSeg="false"/>
+    <pt x="10" y="-0.0441179857553272" rx="10" ry="-0.01279758365421705" lx="10" ly="-0.0441179857553272" constSeg="false"/>
+    <pt x="19" y="0" rx="19" ry="0.1164416029755633" lx="19" ly="0" constSeg="false"/>
+    <pt x="28" y="0.1525384998979879" rx="28.05555555555555" ry="0.04774105721998096" lx="28" ly="0.1525384998979879" constSeg="false"/>
+    <pt x="37" y="0" rx="37" ry="0" lx="33.34567901234568" ly="0" constSeg="false"/>
+   </bezier>
+   <bezier name="ATV-0B91415EB9439B1E">
+    <pt x="1" y="0" rx="1" ry="-0.02715738323113435" lx="1" ly="0" constSeg="false"/>
+    <pt x="10" y="-0.03825394842235053" rx="10" ry="-0.01109656519121618" lx="10" ly="-0.03825394842235053" constSeg="false"/>
+    <pt x="19" y="0" rx="19" ry="-0.09884814564357292" lx="19" ly="0" constSeg="false"/>
+    <pt x="28" y="-0.1294910707930805" rx="28.05555555555555" ry="-0.0405277397138649" lx="28" ly="-0.1294910707930805" constSeg="false"/>
+    <pt x="37" y="0" rx="37" ry="0" lx="33.34567901234568" ly="0" constSeg="false"/>
+   </bezier>
+   <bezier name="ATV-0B91415EB9439B1F">
+    <pt x="1" y="0" rx="1" ry="-0.00480790144146585" lx="1" ly="0" constSeg="false"/>
+    <pt x="10" y="-0.006772420310021787" rx="10" ry="-0.001964518868555938" lx="10" ly="-0.006772420310021787" constSeg="false"/>
+    <pt x="19" y="0" rx="19" ry="-0.0151962057643157" lx="19" ly="0" constSeg="false"/>
+    <pt x="28" y="-0.01990702955125356" rx="28.05555555555555" ry="-0.006230444363369437" lx="28" ly="-0.01990702955125356" constSeg="false"/>
+    <pt x="37" y="0" rx="37" ry="0" lx="33.34567901234568" ly="0" constSeg="false"/>
+   </bezier>
+   <bezier name="ATV-0B91415EB9439B20">
+    <pt x="1" y="0" rx="1" ry="0" lx="1" ly="0" constSeg="false"/>
+    <pt x="10" y="0" rx="10" ry="0" lx="10" ly="0" constSeg="false"/>
+    <pt x="19" y="0" rx="19" ry="0" lx="19" ly="0" constSeg="false"/>
+    <pt x="28" y="0" rx="28.05555555555555" ry="0" lx="28" ly="0" constSeg="false"/>
+    <pt x="37" y="0" rx="37" ry="0" lx="33.34567901234568" ly="0" constSeg="false"/>
+   </bezier>
+   <bezier name="ATV-0B91415EB9439B24">
+    <pt x="1" y="0" rx="1" ry="0" lx="1" ly="0" constSeg="false"/>
+    <pt x="10" y="0" rx="10" ry="0" lx="10" ly="0" constSeg="false"/>
+    <pt x="19" y="0" rx="19" ry="0" lx="19" ly="0" constSeg="false"/>
+    <pt x="28" y="0" rx="28.05555555555555" ry="0" lx="28" ly="0" constSeg="false"/>
+    <pt x="37" y="0" rx="37" ry="0" lx="33.34567901234568" ly="0" constSeg="false"/>
+   </bezier>
+   <pivot name="PIVOT-TV-Pajaro_Pajaro_Izquierda_Pata1">
+    <pt x="-15.79682028124906" y="-2.878307988967067" z="0" start="1"/>
+   </pivot>
+   <bezier name="ATV-0B91415EB9439B28">
+    <pt x="1" y="0" rx="1" ry="-0.01714788758014446" lx="1" ly="0" constSeg="false"/>
+    <pt x="10" y="-0.02415455132256908" rx="10" ry="-0.00700666374242462" lx="10" ly="-0.02415455132256908" constSeg="false"/>
+    <pt x="19" y="0" rx="19" ry="0.02577109749520384" lx="19" ly="0" constSeg="false"/>
+    <pt x="28" y="0.03376013771871703" rx="28.05555555555555" ry="0.01056614997303358" lx="28" ly="0.03376013771871703" constSeg="false"/>
+    <pt x="37" y="0" rx="37" ry="0" lx="33.34567901234568" ly="0" constSeg="false"/>
+   </bezier>
+   <bezier name="ATV-0B91415EB9439B25">
+    <pt x="1" y="0" rx="1" ry="-0.06488991581404294" lx="1" ly="0" constSeg="false"/>
+    <pt x="10" y="-0.09140407496386693" rx="10" ry="-0.026514159149824" lx="10" ly="-0.09140407496386693" constSeg="false"/>
+    <pt x="19" y="0" rx="19" ry="0.1568930153312366" lx="19" ly="0" constSeg="false"/>
+    <pt x="28" y="0.20552985008392" rx="28.05555555555555" ry="0.06432613628580704" lx="28" ly="0.20552985008392" constSeg="false"/>
+    <pt x="37" y="0" rx="37" ry="0" lx="33.34567901234568" ly="0" constSeg="false"/>
+   </bezier>
+   <bezier name="ATV-0B91415EB9439B26">
+    <pt x="1" y="0" rx="1" ry="0.001439019703289368" lx="1" ly="0" constSeg="false"/>
+    <pt x="10" y="0.002027006248719432" rx="10" ry="0.0005879865454300644" lx="10" ly="0.002027006248719432" constSeg="false"/>
+    <pt x="19" y="0" rx="19" ry="0.005298747512039266" lx="19" ly="0" constSeg="false"/>
+    <pt x="28" y="0.006941359240771439" rx="28.05555555555555" ry="0.0021724864799361" lx="28" ly="0.006941359240771439" constSeg="false"/>
+    <pt x="37" y="0" rx="37" ry="0" lx="33.34567901234568" ly="0" constSeg="false"/>
+   </bezier>
+   <bezier name="ATV-0B91415EB9439B27">
+    <pt x="1" y="0" rx="1" ry="0" lx="1" ly="0" constSeg="false"/>
+    <pt x="10" y="0" rx="10" ry="0" lx="10" ly="0" constSeg="false"/>
+    <pt x="19" y="0" rx="19" ry="0" lx="19" ly="0" constSeg="false"/>
+    <pt x="28" y="0" rx="28.05555555555555" ry="0" lx="28" ly="0" constSeg="false"/>
+    <pt x="37" y="0" rx="37" ry="0" lx="33.34567901234568" ly="0" constSeg="false"/>
+   </bezier>
+   <bezier name="ATV-0B91415EB9439B2B">
+    <pt x="1" y="0" rx="1" ry="0" lx="1" ly="0" constSeg="false"/>
+    <pt x="10" y="0" rx="10" ry="0" lx="10" ly="0" constSeg="false"/>
+    <pt x="19" y="0" rx="19" ry="0" lx="19" ly="0" constSeg="false"/>
+    <pt x="28" y="0" rx="28.05555555555555" ry="0" lx="28" ly="0" constSeg="false"/>
+    <pt x="37" y="0" rx="37" ry="0" lx="33.34567901234568" ly="0" constSeg="false"/>
+   </bezier>
+   <pivot name="PIVOT-TV-Pajaro_Pajaro_Izquierda_Pata2">
+    <pt x="-14.62670674439222" y="-2.86185326735502" z="0" start="1"/>
+   </pivot>
+  </timedvalues>
+ </animation>
+</animations>

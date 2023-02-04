@@ -1,0 +1,44 @@
+<skeletons>
+ <skeleton name="Top">
+  <nodes>
+   <read id="0" name="Pajaro_Pajaro_tracero_Batamanta"/>
+   <read id="1" name="Pajaro_Pajaro_tracero_Cabeza"/>
+   <read id="2" name="Pajaro_Pajaro_tracero_Cabello"/>
+   <read id="3" name="Pajaro_Pajaro_tracero_Pata1"/>
+   <read id="4" name="Pajaro_Pajaro_tracero_Pata2"/>
+   <read id="5" name="Pajaro_Pajaro_frontal_Batamanta"/>
+   <peg id="6" name="Pajaro_Pajaro_frontal_Cara"/>
+   <peg id="7" name="Pajaro_Pajaro_frontal_Cabeza"/>
+   <read id="8" name="Pajaro_Pajaro_frontal_Cabello"/>
+   <read id="9" name="Pajaro_Pajaro_frontal_Pata1"/>
+   <peg id="10" name="Pajaro_Pajaro_frontal_Cara"/>
+   <read id="11" name="Pajaro_Pajaro_frontal_Cabeza"/>
+   <read id="12" name="Pajaro_Pajaro_frontal_Cabello"/>
+   <read id="13" name="Pajaro_Pajaro_frontal_Nariz"/>
+   <read id="14" name="Pajaro_Pajaro_frontal_OjoIzquierdo"/>
+   <read id="15" name="Pajaro_Pajaro_frontal_OjoDerecho"/>
+   <read id="16" name="Pajaro_Pajaro_frontal_Pata1"/>
+   <read id="17" name="Pajaro_Pajaro_frontal_Pata2"/>
+  </nodes>
+  <links>
+   <link in="Top" out="0"/>
+   <link in="0" out="1"/>
+   <link in="1" out="2"/>
+   <link in="0" out="3"/>
+   <link in="0" out="4"/>
+   <link in="Top" out="5"/>
+   <link in="5" out="6"/>
+   <link in="6" out="7"/>
+   <link in="7" out="8"/>
+   <link in="5" out="9"/>
+   <link in="5" out="10"/>
+   <link in="10" out="11"/>
+   <link in="11" out="12"/>
+   <link in="11" out="13"/>
+   <link in="11" out="14"/>
+   <link in="11" out="15"/>
+   <link in="5" out="16"/>
+   <link in="5" out="17"/>
+  </links>
+ </skeleton>
+</skeletons>

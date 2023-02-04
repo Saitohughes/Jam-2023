@@ -1,0 +1,26 @@
+<skeletons>
+ <skeleton name="Top">
+  <nodes>
+   <read id="0" name="Pajaro_Pajaro_Izquierda_Batamanta"/>
+   <peg id="1" name="Pajaro_Pajaro_Izquierda_Cara"/>
+   <read id="2" name="Pajaro_Pajaro_Izquierda_Cabeza"/>
+   <read id="3" name="Pajaro_Pajaro_Izquierda_Cabello"/>
+   <read id="4" name="Pajaro_Pajaro_Izquierda_Nariz"/>
+   <read id="5" name="Pajaro_Pajaro_Izquierda_OjoIzquierdo"/>
+   <read id="6" name="Pajaro_Pajaro_Izquierda_OjoDerecha"/>
+   <read id="7" name="Pajaro_Pajaro_Izquierda_Pata1"/>
+   <read id="8" name="Pajaro_Pajaro_Izquierda_Pata2"/>
+  </nodes>
+  <links>
+   <link in="Top" out="0"/>
+   <link in="0" out="1"/>
+   <link in="1" out="2"/>
+   <link in="2" out="3"/>
+   <link in="2" out="4"/>
+   <link in="2" out="5"/>
+   <link in="2" out="6"/>
+   <link in="0" out="7"/>
+   <link in="0" out="8"/>
+  </links>
+ </skeleton>
+</skeletons>

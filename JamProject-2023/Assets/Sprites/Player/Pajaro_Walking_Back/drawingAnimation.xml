@@ -1,0 +1,43 @@
+<drawingAnimations>
+ <drawingAnimation spritesheet="sheet_Top" name="Pajaro_Walking_Top">
+  <drawing node="Pajaro_Pajaro_tracero_Batamanta" name="21-Batamanta" drwId="1">
+   <drw skinId="0" frame="1" repeat="25" name="21-Batamanta-1.png"/>
+  </drawing>
+  <drawing node="Pajaro_Pajaro_tracero_Cabeza" name="19-Cabeza" drwId="2">
+   <drw skinId="0" frame="1" repeat="25" name="19-Cabeza-1.png"/>
+  </drawing>
+  <drawing node="Pajaro_Pajaro_tracero_Cabello" name="22-Cabello" drwId="3">
+   <drw skinId="0" frame="1" repeat="25" name="22-Cabello-1.png"/>
+  </drawing>
+  <drawing node="Pajaro_Pajaro_tracero_Pata1" name="18-Pata1" drwId="4">
+   <drw skinId="0" frame="1" repeat="25" name="18-Pata1-1.png"/>
+  </drawing>
+  <drawing node="Pajaro_Pajaro_tracero_Pata2" name="20-Pata2" drwId="5">
+   <drw skinId="0" frame="1" repeat="25" name="20-Pata2-1.png"/>
+  </drawing>
+  <drawing node="Pajaro_Pajaro_frontal_Batamanta" name="24-Batamanta" drwId="6">
+   <drw skinId="0" frame="1" repeat="25" name="24-Batamanta-1.png"/>
+  </drawing>
+  <drawing node="Pajaro_Pajaro_frontal_Cabeza" name="29-Cabeza" drwId="7">
+   <drw skinId="0" frame="1" repeat="25" name="29-Cabeza-1.png"/>
+  </drawing>
+  <drawing node="Pajaro_Pajaro_frontal_Cabello" name="30-Cabello" drwId="8">
+   <drw skinId="0" frame="1" repeat="25" name="30-Cabello-1.png"/>
+  </drawing>
+  <drawing node="Pajaro_Pajaro_frontal_Pata1" name="25-Pata1" drwId="9">
+   <drw skinId="0" frame="1" repeat="25" name="25-Pata1-1.png"/>
+  </drawing>
+  <drawing node="Pajaro_Pajaro_frontal_Nariz" name="27-Nariz" drwId="10">
+   <drw skinId="0" frame="1" repeat="25" name="27-Nariz-1.png"/>
+  </drawing>
+  <drawing node="Pajaro_Pajaro_frontal_OjoIzquierdo" name="28-OjoIzquierdo" drwId="11">
+   <drw skinId="0" frame="1" repeat="25" name="28-OjoIzquierdo-1.png"/>
+  </drawing>
+  <drawing node="Pajaro_Pajaro_frontal_OjoDerecho" name="26-OjoDerecho" drwId="12">
+   <drw skinId="0" frame="1" repeat="25" name="26-OjoDerecho-1.png"/>
+  </drawing>
+  <drawing node="Pajaro_Pajaro_frontal_Pata2" name="23-Pata2" drwId="13">
+   <drw skinId="0" frame="1" repeat="25" name="23-Pata2-1.png"/>
+  </drawing>
+ </drawingAnimation>
+</drawingAnimations>
