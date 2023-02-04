@@ -10,7 +10,7 @@ public class Tentacle : MonoBehaviour
     [SerializeField]
     private LineRenderer myTail;
     [SerializeField] private Vector3[] SegmentPoses;
-     private Vector3[] SegmentsV;
+    private Vector3[] SegmentsV;
     [SerializeField] float maxLength;
     [SerializeField] Transform targetDir;
     [SerializeField] Transform lastSegment;
@@ -20,6 +20,7 @@ public class Tentacle : MonoBehaviour
 
     RotateToTarget myRoot;
 
+    [SerializeField] Transform[] bodyParts;
     private void Awake()
     {
         myRoot = GetComponentInParent<RotateToTarget>();
@@ -41,6 +42,7 @@ public class Tentacle : MonoBehaviour
         for (int i = 1; i < SegmentPoses.Length; i++)
         {
             SegmentPoses[i] = Vector3.SmoothDamp(SegmentPoses[i], SegmentPoses[i - 1] + targetDir.right * targetDist, ref SegmentsV[i], smoothSpeed + i / trailspeed);
+            bodyParts[i - 1].transform.position = SegmentPoses[i];
         }
         myTail.SetPositions(SegmentPoses);
         float distance = Vector3.Distance(myTail.GetPosition(0), myTail.GetPosition(SegmentPoses.Length - 1));

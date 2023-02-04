@@ -55,7 +55,7 @@ public class MapsManager : MonoBehaviour
 
     public void Win() 
     {
-        SceneManager.LoadScene("Victoria");
+        SceneManager.LoadScene("scn_Victoria");
     }
     // Update is called once per frame
     void Update()

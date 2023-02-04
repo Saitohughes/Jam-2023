@@ -4,6 +4,7 @@ using System.Runtime.InteropServices.ComTypes;
 using UnityEngine;
 using UnityEngine.Animations;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -39,7 +40,6 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         myControl.Move(PlayerMovement());
-        //Aiming();
     }
 
     public Vector3 PlayerMovement()
@@ -60,6 +60,18 @@ public class PlayerController : MonoBehaviour
     public void ReActiveControl()
     {
         myControl.enabled = true;
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "DeadTrigger")
+        {
+            Dead();
+        }
+    }
+
+    public void Dead()
+    {
+        SceneManager.LoadScene("scn_Dead");
     }
 
 }
