@@ -18,12 +18,12 @@ public class RotateToTarget : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        direction = Camera.main.ScreenToWorldPoint(Input.mousePosition)- transform.position;
-        float angle = Mathf.Atan2(direction.z,direction.y)*Mathf.Rad2Deg;
+        direction = myplayer.transform.position - transform.position;
+        float angle = Mathf.Atan2(direction.z,direction.x)*Mathf.Rad2Deg;
         Quaternion rotation = Quaternion.AngleAxis(angle, Vector3.forward);
         transform.rotation = Quaternion.Slerp(transform.rotation, rotation, rotationSpeed*Time.deltaTime);
 
 
-        transform.position = Vector3.MoveTowards(Camera.main.ScreenToWorldPoint(Input.mousePosition), myplayer.transform.position, speed);
+        transform.position = Vector3.MoveTowards(transform.position, myplayer.transform.position, speed);
     }
 }
