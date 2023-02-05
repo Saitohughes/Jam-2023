@@ -35,7 +35,7 @@ public class PlayerController : MonoBehaviour
  
         playerInput=GetComponent<PlayerInput>();
         myControl=GetComponent<CharacterController>();
-        myAnim = GetComponentInChildren<HarmonyRenderer>();
+
 
     }
      void Start()
