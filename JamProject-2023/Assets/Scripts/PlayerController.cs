@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.InteropServices.ComTypes;
+using ToonBoom.Harmony;
 using UnityEngine;
 using UnityEngine.Animations;
 using UnityEngine.InputSystem;
@@ -17,6 +18,10 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     float speed;
     public static PlayerController instance;
+
+
+    [SerializeField]
+    Vector2 movInput;
     void Awake()
     {
         if (instance == null)
@@ -30,6 +35,8 @@ public class PlayerController : MonoBehaviour
  
         playerInput=GetComponent<PlayerInput>();
         myControl=GetComponent<CharacterController>();
+        myAnim = GetComponentInChildren<HarmonyRenderer>();
+
     }
      void Start()
     {
@@ -40,11 +47,12 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         myControl.Move(PlayerMovement());
+        
     }
 
     public Vector3 PlayerMovement()
     {
-        Vector2 movInput = playerInput.actions["Move"].ReadValue<Vector2>();
+         movInput = playerInput.actions["Move"].ReadValue<Vector2>();
         Vector3 finalMov = new Vector3(movInput.x,0f, movInput.y) * speed;
         //myControl.Move(finalMov);
         return finalMov;
