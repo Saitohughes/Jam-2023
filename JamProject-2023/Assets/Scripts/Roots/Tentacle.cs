@@ -47,10 +47,10 @@ public class Tentacle : MonoBehaviour
             if (d>=distancetoPoint)
             {
                 SegmentPoses[i] = Vector3.SmoothDamp(SegmentPoses[i], SegmentPoses[i - 1] + targetDir.right * targetDist, ref SegmentsV[i], smoothSpeed + i / trailspeed);
-                bodyParts[i - 1].transform.position = SegmentPoses[i]; 
+                //bodyParts[i - 1].transform.position = SegmentPoses[i]; 
             }
         }
-        myTail.SetPositions(SegmentPoses);
+        //myTail.SetPositions(SegmentPoses);
         float distance = Vector3.Distance(myTail.GetPosition(0), myTail.GetPosition(SegmentPoses.Length - 1));
         if (distance >=maxLength)
         {
