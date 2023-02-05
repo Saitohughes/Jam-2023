@@ -50,7 +50,7 @@ public class Tentacle : MonoBehaviour
                 //bodyParts[i - 1].transform.position = SegmentPoses[i]; 
             }
         }
-        //myTail.SetPositions(SegmentPoses);
+        myTail.SetPositions(SegmentPoses);
         float distance = Vector3.Distance(myTail.GetPosition(0), myTail.GetPosition(SegmentPoses.Length - 1));
         if (distance >=maxLength)
         {
